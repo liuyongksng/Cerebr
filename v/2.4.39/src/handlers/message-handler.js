@@ -1,6 +1,6 @@
 import { chatManager } from '../utils/chat-manager.js';
 import { showImagePreview, createImageTag, showToast } from '../utils/ui.js';
-import { processMathAndMarkdown, renderMathInElement, textMayContainMath } from '../../htmd/latex.js';
+import { processMathAndMarkdown, renderMathInElement, textMayContainMath } from '../../../../htmd/latex.js';
 import { t } from '../utils/i18n.js';
 import { addRootScrollListener, getClientHeight, getScrollHeight, getScrollTop, scrollToTop } from '../utils/scroll-root.js';
 
